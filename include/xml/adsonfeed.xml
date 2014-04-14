@@ -1,0 +1,35 @@
+<product>
+	<data>
+		<product_id>adsonfeed</product_id>
+		<is_core>0</is_core>
+		<title>Ads on Feed</title>
+		<description>Ads on Feed</description>
+		<version>3.0.1</version>
+		<latest_version></latest_version>
+		<last_check>1397461617</last_check>
+		<is_active>1</is_active>
+		<url></url>
+		<url_version_check></url_version_check>
+	</data>
+	<installs>
+		<install>
+			<version>3.1.0</version>
+			<install_code><![CDATA[Phpfox::getLib('database')->query("CREATE TABLE IF NOT EXISTS `" . Phpfox::getT('adsonfeed') . "` (
+  `ad_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `type_id` tinyint(1) NOT NULL,
+  `name` varchar(150) NOT NULL,
+  `url_link` mediumtext,
+  `html_code` mediumtext,
+  `image_path` varchar(75) DEFAULT NULL,
+  `server_id` tinyint(1) NOT NULL DEFAULT '0',
+  `time_stamp` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`ad_id`)
+) ENGINE=MyISAM ");]]></install_code>
+			<uninstall_code></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>adsonfeed</module_id>
+	</modules>
+</product>

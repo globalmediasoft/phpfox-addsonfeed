@@ -1,0 +1,49 @@
+<module>
+	<data>
+		<module_id>adsonfeed</module_id>
+		<product_id>adsonfeed</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:2:{s:31:"adsonfeed.admin_menu_manage_ads";a:1:{s:3:"url";a:2:{i:0;s:9:"adsonfeed";i:1;s:6:"manage";}}s:28:"adsonfeed.admin_menu_add_ads";a:1:{s:3:"url";a:2:{i:0;s:9:"adsonfeed";i:1;s:3:"add";}}}]]></menu>
+		<phrase_var_name>module_adsonfeed</phrase_var_name>
+	</data>
+	<phrases>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="admin_menu_manage_ads" added="1396852415">Manage Ads</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="module_adsonfeed" added="1396852415">Ads on Feed</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="add_new_ads" added="1396853623">Add new ads</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="ads_detail" added="1396855100">Ads Detail</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="type" added="1396855139">Type</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="html" added="1396855199">HTML</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="image" added="1396855224">Image</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="content" added="1396855278">Content</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6rc1" var_name="title" added="1396855966">Title</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="admin_menu_add_ads" added="1397189482">Add Ads</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="provide_a_name_for_this_campaign" added="1397198648">Provide a name for this campaign.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1397198712">You can upload a JPG, GIF or PNG file.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="link" added="1397198729">Link</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="provide_html_for_your_banner" added="1397199064">Provide html for your banner.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="provide_a_link_for_your_banner" added="1397199096">Provide a link for your banner.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="ad_successfully_added" added="1397200282">Ad successfully added.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="ad_successfully_updated" added="1397200305">Ad successfully updated.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="unable_to_find_this_ad" added="1397200594">Unable to find this ad.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="click_here_to_change_this_banner_image" added="1397201279"><![CDATA[Click <a href="#" onclick="$(&#039;#js_ad_upload_banner&#039;).show(); $(&#039;#js_ad_banner&#039;).hide(); return false;">here</a> to change this banner image.]]></phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="cancel" added="1397201297">Cancel</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="ad_filter" added="1397202036">Ad Filter</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="display" added="1397202054">Display</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="sort_by" added="1397202064">Sort By</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="no_ads_have_been_created" added="1397202082">No ads have been created.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="add_a_new_ad" added="1397202093">Add a New Ad</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="recently_added" added="1397202233">Recently added</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="manage_ad_campaigns" added="1397202275">Manage ad Campaigns.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="id" added="1397202552">Id</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="manage" added="1397202601">Manage</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="ads" added="1397202619">Ads</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="edit" added="1397202632">Edit</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="delete" added="1397202647">Delete</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="created" added="1397202766">Created</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="search_for_text" added="1397203027">Search for text</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="no_search_results_were_found" added="1397203050">No search results were found.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="dynamic_ads_html" added="1397459109">Dynamic Ads HTML</phrase>
+	</phrases>
+</module>
