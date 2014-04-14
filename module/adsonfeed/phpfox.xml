@@ -45,5 +45,7 @@
 		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="search_for_text" added="1397203027">Search for text</phrase>
 		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="no_search_results_were_found" added="1397203050">No search results were found.</phrase>
 		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="dynamic_ads_html" added="1397459109">Dynamic Ads HTML</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="ad_successfully_deleted" added="1397471262">Ad successfully deleted.</phrase>
+		<phrase module_id="adsonfeed" version_id="3.7.6" var_name="unable_to_find_the_ad_you_want_to_delete" added="1397471318">Unable to find the ad you want to delete.</phrase>
 	</phrases>
 </module>

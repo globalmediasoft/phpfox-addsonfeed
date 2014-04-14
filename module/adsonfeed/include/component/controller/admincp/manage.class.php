@@ -8,22 +8,13 @@ class AdsonFeed_Component_Controller_AdminCP_Manage extends Phpfox_Component
 	public function process()
 	{
 		$iPage = $this->request()->getInt('page');
-		
 		if (($iId = $this->request()->getInt('delete')))
 		{
 			if (Phpfox::getService('adsonfeed.process')->delete($iId))
 			{
-				$this->url()->send('admincp.adsonfeed', null, Phpfox::getPhrase('adsonfeed.ad_successfully_deleted'));
+				$this->url()->send('admincp.adsonfeed.manage', null, Phpfox::getPhrase('adsonfeed.ad_successfully_deleted'));
 			}
 		}
-		
-		if (($aVals = $this->request()->getArray('val')))
-		{
-			if (Phpfox::getService('adsonfeed.process')->updateActivity($aVals))
-			{
-				$this->url()->send('admincp.adsonfeed', null, Phpfox::getPhrase('adsonfeed.ad_s_successfully_updated'));
-			}
-		}		
 		
 		$aPages = array(5, 10, 15, 20);
 		$aDisplays = array();

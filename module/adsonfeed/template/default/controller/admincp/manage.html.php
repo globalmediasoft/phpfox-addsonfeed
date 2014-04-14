@@ -65,7 +65,7 @@ defined('PHPFOX') or exit('NO DICE!');
 			<div class="link_menu">
 				<ul>
 					<li><a href="{url link='admincp.adsonfeed.add' id=$aAd.ad_id}">{phrase var='adsonfeed.edit'}</a></li>		
-					<li><a href="{url link='admincp.ad' delete=$aAd.ad_id}" onclick="return confirm('{phrase var='admincp.are_you_sure' phpfox_squote=true}');">{phrase var='adsonfeed.delete'}</a></li>
+					<li><a href="{url link='admincp.adsonfeed.manage' delete=$aAd.ad_id}" onclick="return confirm('{phrase var='admincp.are_you_sure' phpfox_squote=true}');">{phrase var='adsonfeed.delete'}</a></li>
 				</ul>
 			</div>		
 		</td>		

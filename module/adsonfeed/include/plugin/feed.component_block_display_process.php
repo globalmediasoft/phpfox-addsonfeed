@@ -1,5 +1,5 @@
 <?php
-    if(Phpfox::isModule('adsonfeed') && count($aRows) > 0){ 
+    if(Phpfox::isModule('adsonfeed') && count($aRows) > 0 && !defined('PHPFOX_IS_USER_PROFILE')){ 
         $aAdsView = array(0);
         if(PHPFOX_IS_AJAX){
             if((isset($_SESSION['adsonfeeds']) && $_SESSION['adsonfeeds'] != '') )

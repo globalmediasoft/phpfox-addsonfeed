@@ -45,7 +45,7 @@ class AdsOnFeed_Service_Process extends Phpfox_Service
 			'name' => $this->preParse()->clean($aVals['name'], 150),
 			'url_link' => ($aVals['type_id'] == 2 ? $aVals['url_link'] : null),
 			'html_code' => (empty($aVals['html_code']) ? null : $aVals['html_code']),
-			'type_id' => (!isset($aVals['type_id']) ? 1 : (int)$aVals['type_id']),
+            'type_id' => !isset($aVals['type_id']) ? 1 : $aVals['type_id'],
 		);
 
 		if (empty($aSql['url_link']))
@@ -78,6 +78,21 @@ class AdsOnFeed_Service_Process extends Phpfox_Service
 		
 		return true;
 	}
-	
+	public function delete($iId)
+	{
+		$aAd = $this->database()->select('*')
+			->from($this->_sTable)
+			->where('ad_id = ' . (int) $iId)
+			->execute('getRow');
+			
+		if (!isset($aAd['ad_id']))
+		{
+			return Phpfox_Error::set(Phpfox::getPhrase('adsonfeed.unable_to_find_the_ad_you_want_to_delete'));
+		}
+		$this->database()->delete($this->_sTable, 'ad_id = ' . $aAd['ad_id']);
+		
+		return true;
+	}
+
 }
 ?>
