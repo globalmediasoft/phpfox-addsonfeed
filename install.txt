@@ -1,0 +1,15 @@
+CEOfox - Social Network Plugins and Customization
+	+ Homepage:	http://ceofox.com
+	+ Support: 	http://ceofox.com/support
+	+ License: 	http://ceofox.com/pages/license
+	+ Refund:  	http://ceofox.com/pages/refund
+
+Please follow all steps in this installation guide to have completed installation.
+==================================================================================
+1. upload the files and folders within the "upload/" folder to your site using an FTP client.
+   Be sure to overwrite any old files.
+2. Go to AdminCP > Extensitons > Products > Import Product.
+3. Find "Ads on Feed" for your location and click install.
+4. No need license key because of free license.
+
+
